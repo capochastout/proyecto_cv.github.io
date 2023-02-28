@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Tilt+Neon&display=swap");
+
+.body-font {
+  font-family: Tilt Neon, sans-serif;
+  width: normal;
+}
+
+.header {
+  background-image:  url(../img/header.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  min-width: 400px;
+}
+
+.header .header-box .header-subtitle {
+  font-weight: normal;
+  font-size: 200%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 40px;
+}
+
+.header .header-box .header-title {
+  font-size: 700%;
+  font-weight: bold;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-left: 40px;
+}
+
+.header .header-box .header-mono {
+  letter-spacing: 5px;
+  font-weight: normal;
+  font-size: 200%;
+  font-style: italic;
+  margin-bottom: 25px;
+  margin-top: 15px;
+  margin-left: 40px;
+}
+
+.header .header-box {
+  padding-top: 15px;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-bottom: 15px;
+  color: white;
+}
+
+.avatar {
+  max-height: 200px;
+  background-image: 100%;
+}
+
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+.button {
+  border: none;
+  opacity: 0.6;
+  transition: 0.5s;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 1em;
+}
+
+.button:hover {opacity: 1}
